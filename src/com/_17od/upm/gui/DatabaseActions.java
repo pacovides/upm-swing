@@ -92,6 +92,7 @@ public class DatabaseActions {
                     masterPassword.requestFocusInWindow();
                 }
             });
+            
             dialog.show();
             
             if (pane.getValue().equals(new Integer(JOptionPane.OK_OPTION))) {
